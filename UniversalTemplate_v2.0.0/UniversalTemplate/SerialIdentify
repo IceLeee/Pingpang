@@ -1,0 +1,5 @@
+#!/bin/bash
+# Copyright Statement:
+
+cd /vault/tmp
+python ./b237Tool.py -serial -identify -max_timeout -ilimit 1500 -info -serialPort

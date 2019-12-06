@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Factory</key>
+	<string>ICT</string>
+	<key>Product</key>
+	<string>P97</string>
+	<key>SW_Name</key>
+	<string>PingPongTest</string>
+	<key>SW_Version</key>
+	<string>1.0.3</string>
+	<key>Pudding</key>
+	<true/>
+	<key>Audit</key>
+	<false/>
+	<key>BaudRate</key>
+	<string>230400</string>
+	<key>SpamPID</key>
+	<string>0x6001</string>
+	<key>ChargingCablePID</key>
+	<string>0x1709</string>
+	<key>CheckX2BCB</key>
+	<array>
+		<string>00</string>
+		<string>03</string>
+		<string>04</string>
+		<string>05</string>
+		<string>06</string>
+		<string>07</string>
+		<string>08</string>
+	</array>
+	<key>CheckX2ACB</key>
+	<array>
+		<string>0x00</string>
+		<string>0x03</string>
+		<string>0x05</string>
+		<string>0x11</string>
+		<string>0x1d</string>
+		<string>0x1e</string>
+		<string>0x15</string>
+		<string>0x17</string>
+		<string>0x18</string>
+		<string>0x19</string>
+		<string>0x1A</string>
+	</array>
+	<key>DUTPorts</key>
+	<array>
+		<string>/dev/tty.usbserial-A1067N04</string>
+	</array>
+	<key>FIXTUREPorts</key>
+	<array>
+		<string>/dev/tty.usbserial-eeeee</string>
+	</array>
+	<key>InstPorts</key>
+	<array>
+		<string>/dev/tty.usbserial-eeeee</string>
+	</array>
+</dict>
+</plist>

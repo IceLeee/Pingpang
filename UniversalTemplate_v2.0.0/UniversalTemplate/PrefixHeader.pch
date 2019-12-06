@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  UniversalTemplate
+//
+//  Created by Jason liang on 19/3/11.
+//  Copyright © 2019年 Jason liang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define DES_MODE 0 //是否开启DES加密; 1:开启 0:关闭
+
+#define INSTANT_PUDDING 1 //是否加载InstantPudding模块 1:开启 0:关闭
+
+#define UPLOAD_UART_LOG 1 //是否上传Uart_log 1:开启 0:关闭
+
+#define MULTIPLE_NUMBERS 4 //设置可选通道数; 最大数目为4
+
+#define UOP_CONTROL 0 //是否开启UOP，与gh_fileInfo文件开启不同，这里关闭后gh_fileInfo上设置无效; 1:开启 0:关闭
+
+#define EEEE_CODE 0 //是否开启EEEE校验; 1:开启 0:关闭
+
+#define NI_VISA 0 //是否加载NiVisa模块 1:开启 0:关闭
+
+#define DUT_TEST 1 //是否加载DUT测试
+
+#define FIXTURE_TEST 1 //是否加载FIXTURE测试
+
+#define INST_TEST 0 //是否加载Instrument仪器测试
+
+#define SN_LENGTH 17 //定义SN位数
+
+#endif /* PrefixHeader_pch */

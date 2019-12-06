@@ -1,0 +1,5 @@
+#!/bin/bash
+# Copyright Statement:
+
+cd /vault/tmp
+python ./b237Tool.py -disableBoost -setBoostOff -serialPort 
